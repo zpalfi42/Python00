@@ -1,0 +1,5 @@
+conda list -n 42AI-zpalfi || pip list
+pip show numpy
+conda remove -n 42AI-zpalfi numpy
+conda install -n 42AI-zpalfi numpy
+pip freeze || conda list -n 42AI-zpalfi --export
